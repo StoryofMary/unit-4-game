@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Gem Collector</title>
+    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  </head>
+  
+  <body class="img-fluid">
+
+    <div class="jumbotron bg-white">
+      <div class="containter border border-info">
+
+        <h1>Gem Collector <i class="far fa-gem"></i></h1>
+        <hr class="my-4">
+        
+        <h3>Directions:</h3>
+        
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four gems below. By clicking on a gem you will add a specific amount of point to your total score.</p>
+        <p>You will win the game by matching your total score to the random number, you lose the gam if your total score goes above the random number.</p>
+        <p>The value of each gem is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the value of each gem.</p>
+
+      </div>
+    </div> 
+
+  <div class="container justify-content-center">
+    <div class="row">
+
+        <div class="col-md-4 ml-4"></div> 
+          
+      <div class="col-md-4 float-right">   
+          <p class="card w-50 image-fluid shadow p-3 mb-5 ml-5 bg-white rounded">Given Number: <span class="given"> </span></p>
+      </div> 
+    </div>
+  </div>
+
+  <div class="container justify-content-center">
+    <div class="row">
+        
+      <div class="col-md-3 float-left">  
+          <img src="assets/images/blue.png" class=" blue image-fluid shadow p-3 mb-5 bg-white rounded" alt="blue_gem">
+      </div> 
+  
+      <div class="col-md-3 float-left">  
+          <img src="assets/images/orange.png" class="orange image-fluid shadow p-3 mb-5 bg-white rounded" alt="orange_gem">
+      </div>
+
+      <div class="col-md-3 float-left">  
+          <img src="assets/images/pink.png" class="pink image-fluid shadow p-3 mb-5 bg-white rounded" alt="pink_gem">
+      </div>
+      
+      <div class="col-md-3 float-right">
+          <img src="assets/images/green.png" class="green image-fluid shadow p-3 mb-5 bg-white rounded" alt="green_gem">
+      </div>
+      
+    </div>
+  </div> 
+    
+  <div class="container mx-5 px-5">
+    <div class="row justify-content-center">
+
+      <div class="col align-self-start ml-5 mr-0">  
+          <p class="card w-50 image-fluid shadow p-3 mb-5 ml-5 bg-white rounded">Wins: <span class="wins">0</span></p>
+      </div> 
+
+      <div class="col align-self-center ml-4">  
+          <p class="card w-50 image-fluid shadow p-3 mb-5 ml-4 bg-white rounded">Losses: <span class="losses">0</span></p>
+      </div>
+
+      <div class="col align-self-end">
+          <p class="card w-50 image-fluid shadow p-3 mb-5 bg-white rounded">Total Score: <span class="totalScore">0</span></p>
+      </div>
+  
+    </div>
+  </div>
+
+
+    
+    
+</body>
+
+  
+</html>
