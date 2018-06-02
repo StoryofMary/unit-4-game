@@ -50,7 +50,7 @@ $(document).ready(function(){
     reset()
     }
 
-    // Click on crystals and add to get to given number
+    // Click on gems and add to get to given number
     $(".blue").on ('click', function(){
         totalScore = totalScore + hiddenBlue;
         $(".totalScore").text(totalScore); 
